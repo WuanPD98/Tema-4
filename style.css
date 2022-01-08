@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 70vh;
+    color: black;
+    margin-top: 50px;
+}
+
+form{
+    padding: 10px;
+}
+
+.formulario{
+    margin-right: 4rem;
+    width: 450px;
+    background-color: #617297;
+    box-shadow: 0px 2px 22px 5px black;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.TablaDatos{
+    width: 800px;
+    margin-left: 1.5rem;
+}
+
+.principal h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 1rem;
+}
+
+.principal h2{
+    color: white;
+    font-size: 45px;
+    margin-bottom: 1rem;
+}
+
+.espacio{
+    vertical-align: middle;
+}
+
+.tabla-nombres td{
+    text-align: left;
+    border: 1px solid #99f2c8;
+}
+
+.tabla-nombres th{
+    text-align: center;
+    border: 1px solid #99f2c8;
+}
+
+.tabla-nombres button{
+    width: 45%;
+    margin: 3px;
+    padding: 4px;
+}
