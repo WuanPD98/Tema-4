@@ -57,7 +57,7 @@ function Leer() {
                 <th>Operaciones</th>
             </tr>
         `
-        for (let i = 0; i < pacientes.length; i++) {
+        for (let i = 0; i < storage.length; i++) {
             tablaPacientes.innerHTML += `
                 <tr>
                     <td class="espacio"> ${i+1} </td>
